@@ -1,0 +1,262 @@
+.header .navbar-custom{
+	background: #fff;
+	border: none;
+	padding: 10px 0;
+	margin-bottom: 0;
+}
+
+.header .navbar-custom .navbar-brand span {
+	color: #00e0d0;
+	font-weight: bold;
+}
+
+.header .navbar-collapse-custom a {
+	color: #353535;
+}
+
+.nav navbar-nav navbar-right :hover {
+  background-color: orange;
+}
+
+.carousel-indicators .active {
+	background: #00e0d0;
+}
+
+.saiba-mais {
+	border: 1px solid #00e0d0;
+	padding: 8px 20px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.saiba-mais {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.saiba-mais:hover {
+	text-decoration: none;
+	color: #00e0d0;
+	border: 1px solid #fff;
+}
+
+.carousel-caption {
+	bottom: 100px;
+}
+
+.servicos {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.servicos h2 {
+	text-transform: uppercase;
+	padding: 10px 0;
+	margin: auto;
+}
+
+.servicos i {
+	font-size: 50px;
+	text-align: center;
+	display: block;
+	color: #000;
+}
+
+.sobre {
+	background: url(../img/bg/pneu3.jpg) no-repeat fixed; padding: 40px 0;
+	margin-top: 60px;
+}
+
+.sobre p {
+	color: #000;
+	font-size: 18px;
+	font-family: Arial;
+	text-align: left;
+}
+
+.sobre h2 {
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.rodape {
+	background: #fff;
+	padding: 30px 0;	 
+}
+
+.rodape h2 {
+	text-align: center;
+	font-family: Arial;
+	padding: 20px 0;
+}
+
+.rodape p {
+	font-family: Arial;
+	color: #111;
+}
+
+
+/*python.html     
+ */
+
+ .pedidosja {
+
+ }
+
+ .ifood img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+ }
+
+/* 
+	Agency
+*/
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+footer ul.quicklinks {
+  margin-bottom: 0;
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+ul.social-buttons {
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #fed136;
+}
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: none;
+}
+
+/*
+
+.portfolio-modal .modal-dialog {
+  margin: 0;
+  height: 100%;
+  width: auto;
+}
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.portfolio-modal .modal-content h2 {
+  margin-bottom: 15px;
+  font-size: 3em;
+}
+.portfolio-modal .modal-content p {
+  margin-bottom: 30px;
+}
+.portfolio-modal .modal-content p.item-intro {
+  margin: 20px 0 30px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+.portfolio-modal .modal-content ul.list-inline {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.portfolio-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.portfolio-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #222222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
+::-moz-selection {
+  text-shadow: none;
+  background: #fed136;
+}
+::selection {
+  text-shadow: none;
+  background: #fed136;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #fed136;
+}
+
+.item {
+  width: 100%;
+}

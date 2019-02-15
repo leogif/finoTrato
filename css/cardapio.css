@@ -1,0 +1,33 @@
+#back {
+	background: #222;
+	color: #fff;
+	margin: 20px;
+	text-align: center;
+}
+
+#menu-cardapio {
+	background: #222;
+	color: #fff;
+	margin: 20px;
+	text-align: center;
+}
+
+.img-table {
+	margin-top: 10px;
+}
+
+thead#cabecalho-menu {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+tbody#corpo-menu tr {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+tbody#corpo-menu td {
+	font-family: sans-serif;
+	text-align: center;
+	text-transform: uppercase;	
+}
